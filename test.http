@@ -1,0 +1,39 @@
+GET http://localhost:5000/houssem
+#############################
+POST http://localhost:5000/houssem
+Content-Type: :application/json
+{
+  "image" : "url",
+  "home" : {
+      "linkfacebook" : "https://www.facebook.com/houssem.sekri.3386",
+      "linkgithub" : "https://github.com/houssemsekri?tab=repositories",
+      "par" : "lorem"
+
+  } ,
+  "about" : {
+      "img" : "url",
+      "par" : "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more and more interactive with web animations.",
+      "cor": [
+          {
+              "key" :"Full Name",
+              "value" : "Houssem Sekri",
+
+          },
+          {
+              "key" :"Age",
+              "value" : "25",
+              
+          },
+          {
+              "key" :"Adress",
+              "value" : "El Menzah 7, Ariana, Tunisia",
+              
+          },{
+              "key" :"Phone",
+              "value" : "98628581",
+              
+          },
+          
+      ]
+  } 
+}

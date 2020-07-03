@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb://127.0.0.1:27017",
+  "jwtSecret": "houssemsekrisidik",
+  "githubClientId": "921c346dae03cdbb007b",
+  "githubSecret": "5a067517224c6b4968da83acd46979684f4671b4"
+}
